@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/steps")
+@RequestMapping("/api/steps")
 public class stepControler {
     @Autowired
     private stepService stepService;

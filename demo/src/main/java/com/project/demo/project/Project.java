@@ -14,10 +14,14 @@ public class Project {
     @JoinColumn(name = "user_id")
 
     private User user;
+    private String status;
     private String projectName;
     private String projectDesc;
     private Date startDate;
     private Date endDate;
+
+    public String getStatus() {return status;}
+    public void setStatus(String status) {this.status = status;}
 
     public Long getProjectId() {
         return projectId;
